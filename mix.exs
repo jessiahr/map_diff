@@ -36,7 +36,7 @@ defmodule MapDiff.Mixfile do
     # These are the default files included in the package
     [
       name: :map_diff,
-      files: ["lib", "priv/static", "mix.exs", "README*", "LICENSE*"],
+      files: ["lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Jessiah Ratliff"],
       licenses: ["Apache 2.0"],
       links: %{"GitHub" => "https://github.com/jessiahr/map_diff"}
