@@ -22,7 +22,8 @@ defmodule MapDiff.Mixfile do
 
   defp deps do
     [
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 
